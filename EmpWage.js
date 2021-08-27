@@ -54,7 +54,7 @@ empDailyWageArr.forEach(sum);
 console.log("USING FOR EACH "+"Total Hours: "+totalEmpHrs+" Total Number Of Working Days: "+totalWorkingDays+" Total Emp Wage: "+totalEmpWage);
 
 
-// by reduce function
+// by using reduce function
 function totalWages(totalWage, dailyWage){
     return totalWage + dailyWage;
 }
