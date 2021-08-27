@@ -78,6 +78,6 @@ let fullDayWageArr = empDayWithWageArr.filter(fullTimeWage)
 console.log("UC7 - Full Day Working Array");
 console.log(fullDayWageArr);
 
-//UC7-D
+//UC7-D find fun
 console.log("UC7-D first Full time Day");
 console.log(empDayWithWageArr.find(fullTimeWage));
