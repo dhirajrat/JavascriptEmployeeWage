@@ -70,7 +70,7 @@ let empDayWithWageArr = empDailyWageArr.map(mapDayWithWage);
 console.log("UC 7-B Day and DailyWage Map");
 console.log(empDayWithWageArr);
 
-// UC7-C Days when full time wage is earned
+// UC7-C Days when full time wage is earned using Filter Function
 function fullTimeWage(dailyWage){
     return dailyWage.includes("160");
 }
