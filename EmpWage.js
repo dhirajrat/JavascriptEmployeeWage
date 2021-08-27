@@ -44,7 +44,7 @@ while(totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays<NUM_OF_WORKING_DAYS){
 let empWage = calcDailyWage(totalEmpHrs);
 console.log("Total Hours: "+totalEmpHrs+" Total Number Of Working Days: "+totalWorkingDays+" Total Emp Wage: "+empWage);
 
-// Finding Employee WageArray Helper Functions
+// Finding Employee Wage Array Helper Functions
 
 let totalEmpWage = 0;
 function sum(dailyWage){
