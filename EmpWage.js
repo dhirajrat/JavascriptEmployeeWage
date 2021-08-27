@@ -60,7 +60,7 @@ function totalWages(totalWage, dailyWage){
 }
 console.log("USING REDUCE METHOD "+"Total Hours: "+totalEmpHrs+" Total Number Of Working Days: "+totalWorkingDays+" Total Emp Wage: "+empDailyWageArr.reduce(totalWages,0));
 
-// UC7-B map the array
+// UC7-B function map the array
 let dayCounter = 0;
 function mapDayWithWage(dailyWage){
     dayCounter++;
