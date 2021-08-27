@@ -20,7 +20,7 @@ function getWorkingHours(empCheck){
         default:
             return 0;
     }
-}                                    //UC3 Function created
+}                                    //UC3 Function created/
 
 
 function calcDailyWage(empHrs){
